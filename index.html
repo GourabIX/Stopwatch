@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-17ZRBG1JPP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-17ZRBG1JPP");
+    </script>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -26,20 +40,17 @@
         <div class="centeredButtons">
           <button
             class="btn btn-lg btn-primary"
-            style="margin-right: 20px;"
+            style="margin-right: 20px"
             id="timerToggle"
           >
             <i
               class="fas fa-stopwatch"
-              style="font-size: 1em; color: white;"
+              style="font-size: 1em; color: white"
             ></i>
             Start
           </button>
           <button class="btn btn-lg btn-warning" id="resetStopwatch">
-            <i
-              class="fas fa-sync-alt"
-              style="font-size: 1em; color: black;"
-            ></i>
+            <i class="fas fa-sync-alt" style="font-size: 1em; color: black"></i>
             Reset and Stop
           </button>
         </div>
